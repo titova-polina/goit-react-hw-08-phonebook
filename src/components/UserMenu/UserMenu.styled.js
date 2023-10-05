@@ -30,5 +30,6 @@ export const LogoutBtn = styled.button`
   &:focus {
     background-color: #3c5080;
     border: 1px solid #3c5080;
+    color: #fcf7e3;
   }
 `;

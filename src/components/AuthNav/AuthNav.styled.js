@@ -13,12 +13,10 @@ export const Link = styled(NavLink)`
   color: #383838;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    color: #141414;
-  }
-
-  &:active {
+  &.active {
     color: #3c5080;
+  }
+  &:hover {
+    color: #141414;
   }
 `;

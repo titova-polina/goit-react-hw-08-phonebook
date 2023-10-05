@@ -22,7 +22,7 @@ export const RegisterForm = () => {
     <Form onSubmit={handleSubmit} autoComplete="off">
       <RegLabel>
         Username
-        <RegInput type="text" name="name" autoComplete="name" />
+        <RegInput type="text" name="name" autoComplete="username" />
       </RegLabel>
       <RegLabel>
         Email
