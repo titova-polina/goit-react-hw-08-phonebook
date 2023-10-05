@@ -17,4 +17,8 @@ export const Link = styled(NavLink)`
   &:focus {
     color: #141414;
   }
+
+  &:active {
+    color: #3c5080;
+  }
 `;

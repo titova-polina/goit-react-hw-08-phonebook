@@ -37,7 +37,7 @@ export const Btn = styled.button`
 
   &:hover,
   &:focus {
-    background-color: #d97d21;
-    border: 1px solid #d97d21;
+    background-color: #3c5080;
+    border: 1px solid #3c5080;
   }
 `;
