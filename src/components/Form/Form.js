@@ -3,8 +3,8 @@ import * as Yup from 'yup';
 import { nanoid } from 'nanoid';
 import { StForm, StField, Error, Btn } from './Form.styled';
 import { useDispatch, useSelector } from 'react-redux';
-import { getItems } from 'redux/selectors';
-import { addContacts } from 'redux/operation';
+import { getItems } from 'redux/tasks/selectors';
+import { addContacts } from 'redux/tasks/operation';
 
 const validationSchema = Yup.object().shape({
   name: Yup.string().min(2).max(50).required('* Name is required'),

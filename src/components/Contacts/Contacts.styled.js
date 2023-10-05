@@ -14,12 +14,11 @@ export const Btn = styled.button`
   cursor: pointer;
   padding: 5px 8px;
   margin-left: 8px;
-  max-width: 60px;
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
     background-color: #d97d21;
-    border: none;
+    border: 1px solid #d97d21;
   }
 `;
