@@ -21,7 +21,7 @@ export default function Home() {
       <section>
         <h2>Add Contact</h2>
         <Form />
-        <h2>Contacts</h2>
+        <h3>Contacts</h3>
         <Filter />
         {isLoading && !error && <b>Request in progress...</b>}
         <Contacts />
